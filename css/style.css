@@ -1,0 +1,379 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {list-style: none;}
+a {text-decoration: none;}
+
+/* Header */
+header {
+    height: 100vh;
+    background: url(../img/headerbg.jpg) 56% 50%/cover;
+    text-align: center;
+}
+
+nav {
+    padding: 40px 45px 0 55px;
+    position: absolute;
+    width: 100%;
+}
+
+#menu li a {
+    font: .8em "Avenir Next Rounded Std";
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#menu li a:hover {color: orange;}
+#cathword {
+    position: absolute;
+    bottom: 147px;
+    width: 100%;
+}
+
+h1 {
+    font: 2em 'Myriad Pro', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h5 {
+    font: 1em 'Myriad Pro', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h1 span {color: #95473f;}
+
+h5 span {color: #a2ca28;}
+
+/* Main */
+.section1 {
+    background-color: #a1c927;
+    color: #fff;
+}
+.section1 .container .article {padding: 70px 0;}
+.section1 .container .row .col {padding: 20px 10px;}
+.section1 .container .row .col i {font-size: 2em;}
+.section1 .container .row .col h2 {font: 1.5em 'Open Sans';padding: 15px 0;}
+
+.section1 .container .row .col a {
+    color: #fff;
+    padding-right: 10px;
+    font: .9em 'Proxima Nova';
+}
+
+.section1 .container .row .col p {
+    font: .9em/1.5 'Proxima Nova';
+    padding-bottom: 25px;
+}
+
+
+.row .col25 {
+    background-color: #fff;
+    text-align: center;
+    padding: 2.6vw 10px 3vw 10px;
+}
+
+.row .col25 h6 {
+    font: .85em Montserrat;
+    text-transform: uppercase;
+    color: #fd634e;
+}
+
+.row .col25 h2 {
+    font: 300 1.3em "Open Sans";
+    text-transform: uppercase;
+    color: #a2ca28;
+}
+
+.row .col25 p {
+    font: .9em/1.5 "Open Sans";
+    color: #656e74;
+    padding: 5px 0;
+}
+
+.row #firstbg {
+    height: 50vh;
+    background: url(../img/fitness.jpg) center/cover;
+    margin: auto;
+    position: relative;
+}
+
+.row #secondbg {
+    height: 50vh;
+    background: url(../img/body.jpg) center/cover;
+    position: relative;
+}
+
+.col25 i {
+    color: #e3e9e9;
+    padding: 1.7vw 0 1.2vw 0;
+}
+
+
+
+.right .col75 {
+    position: relative;
+    color: #fff;
+    background-color: #a1c927;
+}
+
+.right .col75 h2 {
+    font: 300 1.3em "Open Sans";
+    text-transform: uppercase;
+    padding: 50px 10px 0 10px;
+}
+
+.right .col75 p {
+    font: .9em/1.5 "Open Sans";
+    padding: 30px 10px 50px 10px;
+}
+
+.col75 #activeuserimg {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}
+
+.col75 #productuserimg {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+.firstrow {width: 100%;}
+
+.section2 { background-color: #fd634d;}
+
+.section2 .row {width: 100%;}
+
+#leftbg {
+    background: url(../img/sontest.jpg) 80% 20%/cover;
+    height: 50vh
+}
+
+#rightbg {
+    background: url(../img/summeroffun.jpg) center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+
+.left .col25,
+.right .col25 { text-align: left;}
+.left .right {width: 100%;}
+
+#grape {
+    background: url(../img/grape.jpg) center/cover;
+    height: 50vh;
+}
+
+#avocado {
+    background: url(../img/mango.jpg)center/cover;
+    height: 50vh;
+}
+
+.right .col25 {
+    background-color: #a1c927;
+    color: #fff;
+    height: 50vh;
+}
+
+.right .col25 h6 {
+    font: 1em Montserrat;
+    text-transform: uppercase;
+    color: white;
+}
+
+.right .col25 h2 {
+    font: 300 1.3em "Open Sans";
+    text-transform: uppercase;
+    color: white;
+}
+
+.right .col25 p {
+    font: .9em/1.5 "Open Sans";
+    color: white;
+    padding-top: 30px;
+}
+
+.left .col75 {
+    padding: 0 10px;
+}
+
+.left .col75 h6 {
+    font: .85em Montserrat;
+    text-transform: uppercase;
+    color: #fd634e;
+    padding-top: 50px;
+}
+
+.left .col75 h2 {
+    font: 300 1.3em "Open Sans";
+    text-transform: uppercase;
+    color: #a2ca28;
+}
+
+#leftid .col75 {
+    background-color: #fff;
+    height: 50vh;
+}
+
+/* Footer */
+
+.top {
+    background: url(../img/footerbg.jpg) center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#contenttop h2 {
+    font: 2em "Open Sans";
+    color: #fff;
+}
+
+#contenttop p {
+    font: 1em "Open Sans";
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bottom {
+    background-color: #000;
+    padding: 10px;
+}
+
+.bottom h6 {
+    font: 1em "Open Sans";
+    color: #fff;
+    padding: 6vw 0 4vw 0;
+}
+
+.bottom p {
+    font: .85em/1.3 "Open Sans";
+    color: #8297a7;
+}
+
+.bottom .f-col span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 35px;
+    min-height: 35px;
+    border-radius: 26px;
+    background-color: red;
+    font: bold 1.5em "Entypo Social";
+    color: #f4f2f2;
+    margin: 0 10px 15px 0;
+}
+
+.f-col:last-child {display: flex;}
+
+.bottom .f-col span:first-child {background-color: #2e3192;}
+.bottom .f-col span:nth-child(2) {background-color: #00aeef;}
+.bottom .f-col span:nth-child(3) {background-color: #ed3123;}
+
+.bottom .f-col span:last-child {
+    background-color: #171a8f;
+    font-size: 15px;
+}
+
+input {
+    padding: 10px 5px;
+    outline: none;
+}
+
+input:last-child {background-color: #a1c927;}
+
+
+/* Responsive Design */
+@media only screen and (min-width: 768px) {
+
+    /* Header Responsive */
+    header {text-align: initial;}
+
+    #menu {
+        float: right;
+        padding-top: 20px;
+    }
+
+    #logo {text-align: left;}
+
+    #menu li {
+        display: inline-block;
+        padding: 0 2vw;
+    }
+
+    #cathword {
+        left: 117px;
+        width: initial;
+    }
+
+    h5 {text-align: right;}
+
+
+    /* Main Responsive */
+    .container {
+        max-width: 1180px;
+        margin: auto;
+    }
+
+    .row::after {
+        display: table;
+        clear: both;
+        content: '';
+    }
+
+    .section1 .container .row .col {
+        width: 25%;
+        float: left;
+        padding: 0 10px;
+    }
+
+    #firstbg {
+        width: 66.66%;
+        float: right;
+    }
+    #secondbg {
+        padding-top: 0;
+        float: left;
+        width: 66.66%;
+    }
+    .row .col25 h2 {font: 300 2.3vw "Open Sans";}
+    .col25 {height: 50vh;}
+    .section2 .container .row {width: 100%;}
+    .right {float: right;width: 66.66%;}
+    .left { display: inline-block; width: 33.33%;}
+    .right .col75 {height: 50vh;}
+    .right .col75 h2 {font: 300 2.3vw "Open Sans";}
+    #leftid {width: 66.66%;}
+    #rightid {width: 33.33%;}
+    #contenttop h2 {font: 2.8em "Open Sans";color: #fff;}
+    .bottom {height: 100vh;}
+
+    .f-row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+
+    .f-col {
+        width: 33.33%;
+        float: left;
+        padding-right: 50px;
+    }
+
+    #inputpar {text-align: left;padding-top: 20px;}
+   
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Avenir Next Rounded Std';
+  src: url('../font/Avenir/AvenirNextRoundedStd-Reg.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  src: url('../font/myriad/MYRIADPRO-REGULAR.woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro ';
+  font-weight: bold;
+  src: url('../font/MyRiadpro/MYRIADPRO-BOLD.woff');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  src: url('../font/ProximaNova/Fontspring-DEMO-proximanova-regular.otf');
+}
+
+@font-face {
+  font-family: "Entypo Social";
+  font-weight: 400;
+  src: url('../font/entypo/Courier\ Prime\ Code.ttf');
+}
